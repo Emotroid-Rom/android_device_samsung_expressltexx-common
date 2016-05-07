@@ -121,7 +121,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermald-8930ab.conf:system/etc/thermald-8930ab.conf
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/msm8930-common/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/expressltexx-common/overlay
 
 # Common qcom
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
